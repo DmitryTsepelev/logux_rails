@@ -46,6 +46,7 @@ module Logux
   autoload :Version, 'logux/version'
   autoload :Test, 'logux/test'
   autoload :ErrorRenderer, 'logux/error_renderer'
+  autoload :Model, 'logux/model'
 
   configurable :logux_host, :verify_authorized,
                :password, :logger,

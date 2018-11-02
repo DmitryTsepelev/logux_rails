@@ -1,0 +1,7 @@
+Description:
+  Generates the necessary migration to enable field tracking for logux updates
+
+Examples:
+  rails generate logux:model User
+
+    This will generate the migration to add a column with update time data.
